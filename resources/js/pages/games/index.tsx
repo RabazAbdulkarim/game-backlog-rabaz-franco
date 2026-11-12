@@ -43,7 +43,7 @@ export default function Index({ games }: { games: Game[] }) {
         game.title.toLowerCase().includes(search.trim().toLowerCase())
     );
     // TODO 3: tel alle uitgespeelde games, onafhankelijk van de zoektekst.
-    const completedCount = 0;
+    const completedCount = games.filter((game) => game.completed).length;
 
     function submit(event: FormEvent<HTMLFormElement>) {
         event.preventDefault();
@@ -91,10 +91,14 @@ export default function Index({ games }: { games: Game[] }) {
             <section>
                 <div className="gb-list-heading">
                     <h2>Mijn games</h2>
+                    <p>Zichtbaar: {visibleGames.length} van {games.length}</p>
                     <label>Zoek op titel
                         <input value={search} placeholder="Zoek een game..."
                             onChange={(e) => setSearch(e.target.value)} />
                     </label>
+                    <button type="button" className="gb-secondary" onClick={() => setSearch('')}>
+                        Wis zoeken
+                    </button>
                 </div>
                 {games.length === 0 ? (
                     <p className="gb-empty">Je lijst is leeg. Voeg je eerste game toe.</p>
