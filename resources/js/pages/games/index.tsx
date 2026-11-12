@@ -39,7 +39,9 @@ export default function Index({ games }: { games: Game[] }) {
     const form = useForm({ title: '', platform: 'PC' });
 
     // TODO 2: laat alleen games zien waarvan de titel de zoektekst bevat.
-    const visibleGames = games;
+    const visibleGames = games.filter((game) =>
+        game.title.toLowerCase().includes(search.trim().toLowerCase())
+    );
     // TODO 3: tel alle uitgespeelde games, onafhankelijk van de zoektekst.
     const completedCount = 0;
 
