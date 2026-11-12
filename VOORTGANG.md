@@ -33,7 +33,7 @@
 | Gast opent `/games` | Wordt naar inloggen verwezen. | Geslaagd (automatische test) |
 | Een andere gebruiker ziet of wijzigt jouw game | Eigendomscontrole gecontroleerd. | Geslaagd (automatische test) |
 | Tweede account handmatig testen | Nog niet vastgelegd. | Nog controleren |
-| GitHub push en partner pull | Nog niet vastgelegd. | Nog uitvoeren indien je met een partner werkt |
+| GitHub push en partner pull | Project staat op GitHub; partner pull moet nog door Franco worden uitgevoerd. | Push geslaagd; partner pull nog uitvoeren |
 
 ## Kennischeck
 
@@ -53,7 +53,7 @@
    De knop wist alleen de React-state `search`. Er worden geen opgeslagen games gewijzigd.
 
 6. **Welke code heb je zelf gemaakt, getest en overgedragen?**  
-   A t/m E zijn met AI-hulp uitgevoerd en daarna samen in de browser gecontroleerd. TypeScript-controle, productiebuild en de zes Laravel feature-tests zijn geslaagd. Vul zelf in welke code je zelfstandig kunt uitleggen en welke onderdelen je hebt overgedragen; GitHub-overdracht is nog niet uitgevoerd.
+   A t/m E zijn met AI-hulp uitgevoerd en daarna samen in de browser gecontroleerd. TypeScript-controle, productiebuild en de zes Laravel feature-tests zijn geslaagd. De code en bewijsbeelden zijn gepusht naar https://github.com/RabazAbdulkarim/game-backlog-rabaz-franco. Franco kan deze repository clonen of pullen om de overdracht af te ronden. Vul zelf in welke code je zelfstandig kunt uitleggen.
 
 ## Bewijs
 
