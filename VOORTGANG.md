@@ -53,7 +53,7 @@
    De knop wist alleen de React-state `search`. Er worden geen opgeslagen games gewijzigd.
 
 6. **Welke code heb je zelf gemaakt, getest en overgedragen?**  
-   A t/m E zijn met AI-hulp uitgevoerd en daarna samen in de browser gecontroleerd. TypeScript-controle, productiebuild en de zes Laravel feature-tests zijn geslaagd. De code en bewijsbeelden staan op https://github.com/RabazAbdulkarim/game-backlog-rabaz-franco. De repository is gekloond op LAPTOP-DT18RAMG; de lokale HEAD komt overeen met origin/HEAD en de werkboom is schoon. Rabaz bevestigt dat de lokale app werkt. Vul zelf in welke code je zelfstandig kunt uitleggen.
+   AI heeft geholpen met de implementatie van A t/m E. Ik heb het resultaat in de browser gecontroleerd. Ik kan de hoofdlijn toelichten: Laravel bewaart de spelstatus; React filtert op titel en berekent de voortgang en zichtbare aantallen. De code is niet volledig zelfstandig geschreven; voor technische details gebruik ik de uitleg hierboven. TypeScript-controle, productiebuild en de zes Laravel feature-tests zijn geslaagd. De code en bewijsbeelden staan op https://github.com/RabazAbdulkarim/game-backlog-rabaz-franco. De repository is gekloond op LAPTOP-DT18RAMG; de lokale HEAD komt overeen met origin/HEAD en de werkboom is schoon. Rabaz bevestigt dat de lokale app werkt.
 
 ## Bewijs
 
