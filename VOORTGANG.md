@@ -32,8 +32,8 @@
 | Resultatenteller: alle, één en nul resultaten | Getoond: 4 van 4, 1 van 4 en 0 van 4. | Geslaagd (handmatig gecontroleerd) |
 | Gast opent `/games` | Wordt naar inloggen verwezen. | Geslaagd (automatische test) |
 | Een andere gebruiker ziet of wijzigt jouw game | Eigendomscontrole gecontroleerd. | Geslaagd (automatische test) |
-| Tweede account handmatig testen | Nog niet vastgelegd. | Nog controleren |
-| GitHub push en partner pull | Project staat op GitHub; partner pull moet nog door Franco worden uitgevoerd. | Push geslaagd; partner pull nog uitvoeren |
+| Lokale app op LAPTOP-DT18RAMG | Rabaz heeft daar een account aangemaakt en bevestigd dat de app werkt. | Door Rabaz bevestigd |
+| GitHub push en tweede clone | Clone op LAPTOP-DT18RAMG is schoon en HEAD komt overeen met origin/HEAD (235bce7). | Geslaagd |
 
 ## Kennischeck
 
@@ -53,7 +53,7 @@
    De knop wist alleen de React-state `search`. Er worden geen opgeslagen games gewijzigd.
 
 6. **Welke code heb je zelf gemaakt, getest en overgedragen?**  
-   A t/m E zijn met AI-hulp uitgevoerd en daarna samen in de browser gecontroleerd. TypeScript-controle, productiebuild en de zes Laravel feature-tests zijn geslaagd. De code en bewijsbeelden zijn gepusht naar https://github.com/RabazAbdulkarim/game-backlog-rabaz-franco. Franco kan deze repository clonen of pullen om de overdracht af te ronden. Vul zelf in welke code je zelfstandig kunt uitleggen.
+   A t/m E zijn met AI-hulp uitgevoerd en daarna samen in de browser gecontroleerd. TypeScript-controle, productiebuild en de zes Laravel feature-tests zijn geslaagd. De code en bewijsbeelden staan op https://github.com/RabazAbdulkarim/game-backlog-rabaz-franco. De repository is gekloond op LAPTOP-DT18RAMG; de lokale HEAD komt overeen met origin/HEAD en de werkboom is schoon. Rabaz bevestigt dat de lokale app werkt. Vul zelf in welke code je zelfstandig kunt uitleggen.
 
 ## Bewijs
 
