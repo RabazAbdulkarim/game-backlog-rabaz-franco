@@ -33,7 +33,7 @@
 | Gast opent `/games` | Wordt naar inloggen verwezen. | Geslaagd (automatische test) |
 | Een andere gebruiker ziet of wijzigt jouw game | Eigendomscontrole gecontroleerd. | Geslaagd (automatische test) |
 | Lokale app op LAPTOP-DT18RAMG | Rabaz heeft daar een account aangemaakt en bevestigd dat de app werkt. | Door Rabaz bevestigd |
-| GitHub push en tweede clone | Clone op LAPTOP-DT18RAMG is schoon en HEAD komt overeen met origin/HEAD (235bce7). | Geslaagd |
+| GitHub push en tweede clone | Clone op LAPTOP-DT18RAMG is schoon en HEAD komt overeen met origin/HEAD. | Geslaagd |
 
 ## Kennischeck
 
